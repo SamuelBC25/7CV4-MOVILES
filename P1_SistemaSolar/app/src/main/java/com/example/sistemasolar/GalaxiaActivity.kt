@@ -1,10 +1,10 @@
 package com.example.sistemasolar
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.util.Log
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class GalaxiaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
