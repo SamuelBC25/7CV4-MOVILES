@@ -50,12 +50,14 @@ Este ejercicio consiste en una aplicación desarrollada de forma **nativa con Ko
 
 ## Instrucciones de Ejecución
 1. Clonar el repositorio: `git clone https://github.com/SamuelBC25/7CV4-MOVILES.git`.
-2. Abrir el proyecto en **Android Studio**.
-3. Asegurarse de que el **Kotlin** esté seleccionado en la configuración del proyecto.
-4. Sincronizar **Gradle** y ejecutar en un emulador Android.
+2. Localización: Navegar hasta la carpeta raíz del repositorio y ubicar el directorio del proyecto: P1_SistemaSolar`.
+Apertura: En Android Studio, seleccionar la opción Open y abrir específicamente la subcarpeta P1_SistemaSolar.
+3. Configuración del lenguaje: Verificar en los ajustes del proyecto que se esté utilizando kotlin para evitar errores de compilación.
+4. Gradle: Esperar a que la sincronización de Gradle finalice correctamente.
+5. Sincronizar **Gradle** y ejecutar en un emulador Android.
 
 ---
 
 ## Evidencias
 ![Menú Principal](Screenshots/galaxia.png)
-![Navegación Planetas a Lunas](Screenshots/lunas.png)
+![Navegación Planetas a Lunas](Screenshots/lunas.png). 
