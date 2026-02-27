@@ -8,16 +8,18 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class PlanetasActivity : Activity() {
-    class PlanetasActivity : AppCompatActivity() {
-        override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_planetas)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_planetas)
 
-            findViewById<Button>(R.id.btnVerLunas).setOnClickListener {
-                // Transición a la Activity final de la jerarquía [cite: 56]
-                startActivity(Intent(this, LunasActivity::class.java))
-                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
-            }
+        val btnLunas = findViewById<Button>(R.id.btnVerLunas)
+
+        btnLunas.setOnClickListener {
+            // INTENT: De Planetas a Lunas
+            val intent = Intent(this, LunasActivity::class.java)
+            startActivity(intent)
+
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
     }
 }

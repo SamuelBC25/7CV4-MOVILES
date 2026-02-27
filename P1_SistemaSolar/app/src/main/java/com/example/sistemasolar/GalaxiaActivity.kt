@@ -14,7 +14,6 @@ class GalaxiaActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnExplorarSistema).setOnClickListener {
             val intent = Intent(this, SistemaSolarActivity::class.java)
             startActivity(intent)
-            // Transición creativa: Deslizar hacia la izquierda [cite: 37]
             overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
         }
     }

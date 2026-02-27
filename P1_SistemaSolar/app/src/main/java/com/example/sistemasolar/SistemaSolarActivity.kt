@@ -10,8 +10,15 @@ class SistemaSolarActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sistema_solar)
 
-        findViewById<Button>(R.id.btnVerPlanetas).setOnClickListener {
-            startActivity(Intent(this, PlanetasActivity::class.java))
+        // Buscamos el botón por el ID que pusimos en el XML
+        val btnPlanetas = findViewById<Button>(R.id.btnVerPlanetas)
+
+        btnPlanetas.setOnClickListener {
+            // INTENT: De Sistema a Planetas
+            val intent = Intent(this, PlanetasActivity::class.java)
+            startActivity(intent)
+
+            // Transición fluida (Requisito de la práctica) [cite: 11]
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
     }

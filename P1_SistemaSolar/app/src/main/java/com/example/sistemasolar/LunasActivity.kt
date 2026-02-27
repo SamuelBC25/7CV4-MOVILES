@@ -9,6 +9,6 @@ class LunasActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lunas)
 
-        Log.d("CicloVida", "Lunas: Se ha alcanzado el nivel más profundo de la jerarquía [cite: 51]")
+        Log.d("CicloVida", "Lunas: Se ha alcanzado el nivel más profundo de la jerarquía")
     }
 }
