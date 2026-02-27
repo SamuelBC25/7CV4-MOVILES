@@ -16,7 +16,7 @@ Se realizó la configuración del entorno de desarrollo siguiendo los requerimie
 Android Studio
  ![alt text](Screenshots/image-2.png)
 
-* **JDK Amazon Corretto:** Instalado y configurado en las variables de entorno para la compilación de Java/Kotlin.
+* **JDK Amazon Corretto y Node.js:** Instalado y configurado en las variables de entorno para la compilación de Java/Kotlin.
 
  ![alt text](Screenshots/image.png)
 
@@ -24,6 +24,8 @@ Android Studio
 
 GitHub Desktop
  ![alt text](Screenshots/image-1.png)
+Git
+![alt text](Screenshots/git.png)
 
 * **Flutter SDK:** Instalado y verificado mediante el comando `flutter doctor`.
 
