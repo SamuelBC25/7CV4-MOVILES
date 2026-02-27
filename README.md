@@ -51,8 +51,8 @@ Este ejercicio consiste en una aplicación desarrollada de forma **nativa con Ko
 ## Instrucciones de Ejecución
 1. Clonar el repositorio: `git clone https://github.com/SamuelBC25/7CV4-MOVILES.git`.
 2. Abrir el proyecto en **Android Studio**.
-3. Asegurarse de que el **JDK Amazon Corretto** esté seleccionado en la configuración del proyecto.
-4. Sincronizar **Gradle** y ejecutar en un emulador Android (API 30+ recomendado).
+3. Asegurarse de que el **Kotlin** esté seleccionado en la configuración del proyecto.
+4. Sincronizar **Gradle** y ejecutar en un emulador Android.
 
 ---
 
