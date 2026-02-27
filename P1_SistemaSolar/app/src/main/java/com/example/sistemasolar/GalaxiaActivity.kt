@@ -20,6 +20,6 @@ class GalaxiaActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        Log.d("CicloVida", "Galaxia: Usuario ha regresado al inicio de la jerarquía [cite: 51]")
+        Log.d("CicloVida", "Galaxia: Usuario ha regresado al inicio de la jerarquía")
     }
 }

@@ -18,7 +18,7 @@ class SistemaSolarActivity : Activity() {
             val intent = Intent(this, PlanetasActivity::class.java)
             startActivity(intent)
 
-            // Transición fluida (Requisito de la práctica) [cite: 11]
+            // Transición fluida
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
     }
